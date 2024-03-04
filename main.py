@@ -38,4 +38,4 @@ async def rank(request: RankRequest):
         })
     print(final_result)
 
-    return JSONResponse(content=json.dumps(final_result))
+    return JSONResponse(content=final_result)
